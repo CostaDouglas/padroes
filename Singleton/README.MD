@@ -13,5 +13,3 @@ Estrutura:
  A classe Singleton declara o método estático getInstance que retorna a mesma instância de sua própria classe.
  O construtor da singleton deve ser escondido do código cliente. Chamando o método getInstance deve ser o único modo de obter o objeto singleton.
 
-Exemplo:
-No exemplo, a classe de conexão com a base de dados age como um Singleton. Essa classe não tem um construtor público, então a única maneira de obter seu objeto é chamando o método getInstance. Esse método coloca o primeiro objeto criado em cache e o retorna em todas as chamadas subsequentes.
