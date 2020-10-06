@@ -2,10 +2,10 @@ Composite é um padrão de projeto de software utilizado para representar um obj
 As classes e objetos participantes nesse padrão são:
 
  Componente
-   Declara a interface para objetos nessa composição.
-   Implementa o comportamento padrão para a interface comum à todas as classes.
-   Declara uma interface para acessar os componentes-filho.
-   (Opcional) - Define uma interface para acessar os componentes-pai na estrutura recursiva, e a implementa se for apropriado.
+    Declara a interface para objetos nessa composição.
+    Implementa o comportamento padrão para a interface comum à todas as classes.
+    Declara uma interface para acessar os componentes-filho.
+    (Opcional) - Define uma interface para acessar os componentes-pai na estrutura recursiva, e a implementa se for apropriado.
  Folha
     Representa o objeto folha na composição. A folha não tem nenhum componente-filho.
     Define o comportamento para objetos primitivos na composição.
