@@ -38,4 +38,4 @@ Strategy: É a interface comum a todos os algoritmos suportados. Através desta 
 ConcreteStrategy: Implementa o algoritmo usando a interface Strategy.
 
     Example
-O exemplo em python ilustra a estrutura do padrão de projeto State.
+O exemplo em python ilustra a estrutura do padrão de projeto Strategy.
